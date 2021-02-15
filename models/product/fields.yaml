@@ -1,0 +1,43 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    status:
+        label: Status
+        span: left
+        type: switch
+        default: 1
+
+    name:
+        label: Name
+        type: text
+        span: left
+
+    slug:
+        label: Slug
+        type: text
+        span: right
+        preset:
+            field: name
+            type: slug
+
+    description:
+        label: Description
+        type: richeditor
+        toolbarButtons: fullscreen|bold|italic|underline|strikeThrough|subscript|superscript|fontFamily|fontSize|color|emoticons|inlineStyle|paragraphStyle|paragraphFormat|align|formatOL|formatUL|outdent|indent|quote|insertHR|insertLink|insertImage|insertVideo|insertAudio|insertFile|insertTable|undo|redo|clearFormatting|selectAll|html
+
+    categories:
+        label: Categories
+        type: relation
+        commentAbove: Selecione as categorias que o produto pertence.
+
+    thumb:
+        label: Thumbnail
+        type: fileupload
+        mode: image
+
+    gallery:
+        label: Gallery
+        type: fileupload
+        mode: image

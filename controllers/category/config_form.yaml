@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/dmrch/catalog/models/category/fields.yaml
+
+# Model Class name
+modelClass: Dmrch\Catalog\Models\Category
+
+# Default redirect location
+defaultRedirect: dmrch/catalog/category
+
+# Create page
+create:
+    title: Create Category
+    redirect: dmrch/catalog/category/update/:id
+    redirectClose: dmrch/catalog/category
+
+# Update page
+update:
+    title: Edit Category
+    redirect: dmrch/catalog/category
+    redirectClose: dmrch/catalog/category
+
+# Preview page
+preview:
+    title: Preview Category

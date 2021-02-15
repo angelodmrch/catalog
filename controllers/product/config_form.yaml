@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/dmrch/catalog/models/product/fields.yaml
+
+# Model Class name
+modelClass: Dmrch\Catalog\Models\Product
+
+# Default redirect location
+defaultRedirect: dmrch/catalog/product
+
+# Create page
+create:
+    title: Create Product
+    redirect: dmrch/catalog/product/update/:id
+    redirectClose: dmrch/catalog/product
+
+# Update page
+update:
+    title: Edit Product
+    redirect: dmrch/catalog/product
+    redirectClose: dmrch/catalog/product
+
+# Preview page
+preview:
+    title: Preview Product
