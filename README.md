@@ -1,1 +1,1 @@
-# Contact Plugin
+# Catalog Plugin
