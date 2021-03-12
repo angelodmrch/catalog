@@ -9,7 +9,7 @@ list: $/dmrch/catalog/models/product/columns.yaml
 modelClass: Dmrch\Catalog\Models\Product
 
 # List Title
-title: Manage Products
+title: dmrch.catalog::lang.product.list_title
 
 # Link URL for each record
 recordUrl: dmrch/catalog/product/update/:id

@@ -4,9 +4,9 @@
 
 columns:
     id:
-        label: ID
+        label: dmrch.catalog::lang.category.id
         searchable: true
 
     name:
-        label: Name
+        label: dmrch.catalog::lang.category.name
         searchable: true

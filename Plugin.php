@@ -16,10 +16,10 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Catalog',
-            'description' => 'No description provided yet...',
+            'name'        => 'dmrch.catalog::lang.plugin.name',
+            'description' => 'dmrch.catalog::lang.plugin.description',
             'author'      => 'Angelo Demarchi',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-cubes'
         ];
     }
 
@@ -80,20 +80,20 @@ class Plugin extends PluginBase
     {
         return [
             'product' => [
-                'label'       => 'Catalog',
+                'label'       => 'dmrch.catalog::lang.plugin.name',
                 'url'         => Backend::url('dmrch/catalog/product'),
                 'icon'        => 'icon-cubes',
                 'permissions' => ['dmrch.catalog.*'],
                 'order'       => 500,
                 'sideMenu' => [
                     'product' => [
-                        'label'       => 'Products',
+                        'label'       => 'dmrch.catalog::lang.plugin.products',
                         'icon'        => 'icon-cube',
                         'url'         => Backend::url('dmrch/catalog/product'),
                         'permissions' => ['dmrch.catalog.*'],
                     ], 
                     'category' => [
-                        'label'       => 'Categories',
+                        'label'       => 'dmrch.catalog::lang.plugin.categories',
                         'icon'        => 'icon-cubes',
                         'url'         => Backend::url('dmrch/catalog/category'), 
                         'permissions' => ['dmrch.catalog.*'],

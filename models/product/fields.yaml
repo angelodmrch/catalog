@@ -4,18 +4,18 @@
 
 fields:
     status:
-        label: Status
+        label: dmrch.catalog::lang.product.status
         span: left
         type: switch
         default: 1
 
     name:
-        label: Name
+        label: dmrch.catalog::lang.product.name
         type: text
         span: left
 
     slug:
-        label: Slug
+        label: dmrch.catalog::lang.product.slug
         type: text
         span: right
         preset:
@@ -23,21 +23,21 @@ fields:
             type: slug
 
     description:
-        label: Description
+        label: dmrch.catalog::lang.product.description
         type: richeditor
         toolbarButtons: fullscreen|bold|italic|underline|strikeThrough|subscript|superscript|fontFamily|fontSize|color|emoticons|inlineStyle|paragraphStyle|paragraphFormat|align|formatOL|formatUL|outdent|indent|quote|insertHR|insertLink|insertImage|insertVideo|insertAudio|insertFile|insertTable|undo|redo|clearFormatting|selectAll|html
 
     categories:
-        label: Categories
+        label: dmrch.catalog::lang.product.categories
         type: relation
-        commentAbove: Selecione as categorias que o produto pertence.
+        commentAbove: dmrch.catalog::lang.product.categories_comment
 
     thumb:
-        label: Thumbnail
+        label: dmrch.catalog::lang.product.thumb
         type: fileupload
         mode: image
 
     gallery:
-        label: Gallery
+        label: dmrch.catalog::lang.product.gallery
         type: fileupload
         mode: image

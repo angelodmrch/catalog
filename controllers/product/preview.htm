@@ -1,6 +1,6 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('dmrch/catalog/product') ?>">Product</a></li>
+        <li><a href="<?= Backend::url('dmrch/catalog/product') ?>"><?= e(trans('dmrch.catalog::lang.plugin.product')) ?></a></li>
         <li><?= e($this->pageTitle) ?></li>
     </ul>
 <?php Block::endPut() ?>
@@ -14,6 +14,6 @@
 <?php else: ?>
 
     <p class="flash-message static error"><?= e($this->fatalError) ?></p>
-    <p><a href="<?= Backend::url('dmrch/catalog/product') ?>" class="btn btn-default">Return to product list</a></p>
+    <p><a href="<?= Backend::url('dmrch/catalog/product') ?>" class="btn btn-default"><?= e(trans('dmrch.catalog::lang.product.return')) ?></a></p>
 
 <?php endif ?>

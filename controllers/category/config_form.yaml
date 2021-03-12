@@ -3,7 +3,7 @@
 # ===================================
 
 # Record name
-name: Category
+name: dmrch.catalog::lang.plugin.category
 
 # Model Form Field configuration
 form: $/dmrch/catalog/models/category/fields.yaml
@@ -16,16 +16,16 @@ defaultRedirect: dmrch/catalog/category
 
 # Create page
 create:
-    title: Create Category
+    title: dmrch.catalog::lang.category.create
     redirect: dmrch/catalog/category/update/:id
     redirectClose: dmrch/catalog/category
 
 # Update page
 update:
-    title: Edit Category
+    title: dmrch.catalog::lang.category.update
     redirect: dmrch/catalog/category
     redirectClose: dmrch/catalog/category
 
 # Preview page
 preview:
-    title: Preview Category
+    title: dmrch.catalog::lang.category.preview

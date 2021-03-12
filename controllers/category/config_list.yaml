@@ -9,7 +9,7 @@ list: $/dmrch/catalog/models/category/columns.yaml
 modelClass: Dmrch\Catalog\Models\Category
 
 # List Title
-title: Manage Categories
+title: dmrch.catalog::lang.category.list_title
 
 # Link URL for each record
 recordUrl: dmrch/catalog/category/update/:id
