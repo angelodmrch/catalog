@@ -2,6 +2,7 @@
 
 use Cms\Classes\ComponentBase;
 use Dmrch\Catalog\Models\Product as ProductModel;
+use Dmrch\Catalog\Models\Category as CategoryModel;
 
 class Product extends ComponentBase
 {

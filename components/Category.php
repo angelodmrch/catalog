@@ -30,7 +30,7 @@ class Category extends ComponentBase
         return CategoryModel::where('slug',$slug)->first();
     }
 
-    public function getParents() {
+    public function getNoParents() {
         return CategoryModel::where('status',1)->where('parent_id',NULL)->get();
     }
 
