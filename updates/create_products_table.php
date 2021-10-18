@@ -11,6 +11,7 @@ class CreateProductsTable extends Migration
         Schema::create('dmrch_catalog_products', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->integer('sort_order')->nullable();
             $table->boolean('status')->default(true);
             $table->string('name')->nullable();
             $table->string('slug')->nullable()->index();
