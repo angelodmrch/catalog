@@ -1,6 +1,6 @@
 # Catalog Plugin
 
-Categories and Products plugin
+Categories and Products plugin for [Winter CMS](https://wintercms.com/) and [October CMS](https://octobercms.com/).
 
 ## Categories
 
